@@ -1,7 +1,8 @@
+/* variaveis / global */
 @import "./global/global.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
-
+/* fixos header / footer */
 @import "./global/header.css";
 @import "./global/footer.css";
 
@@ -11,3 +12,5 @@
 /* home */
 @import "./home/introducao.css";
 @import "./home/bicicletas.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
