@@ -36,11 +36,11 @@
 .bicicletas-lista h3::before {
   content: "";
   display: inline-block;
-  height: .25rem;
-  width: .75rem;
+  height: 0.25rem;
+  width: 0.75rem;
   background: var(--cor-p1);
-  margin-right: .5rem;
-  transition: width .3s;
+  margin-right: 0.5rem;
+  transition: width 0.3s;
 }
 
 .bicicletas-lista a:hover h3::before {
@@ -53,4 +53,10 @@
 
 .bicicletas-lista li span {
   padding-left: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-bottom: 3.5rem;
+  }
 }
