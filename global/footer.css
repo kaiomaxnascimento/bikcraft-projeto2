@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 800px) {
-  .footer > img {
+  .footer > a  {
     display: none;
   }
 
