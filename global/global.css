@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  color: #151515;
+  color: var(--cor-11);
 }
 nav {
   margin: 0px;
