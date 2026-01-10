@@ -32,6 +32,25 @@
   background: var(--cor-9);
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url("../bikcraft-arquivos/img/icones/seta.svg");
+  transition: transform .2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -75,6 +94,6 @@
     padding-top: 2.5rem;
   }
   .titulo p {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 }
