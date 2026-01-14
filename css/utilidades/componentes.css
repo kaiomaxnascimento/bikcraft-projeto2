@@ -96,4 +96,8 @@
   .titulo p {
     font-size: .75rem;
   }
+
+  #bicicleta .titulo p {
+    font-size: 1.25rem;
+  }
 }

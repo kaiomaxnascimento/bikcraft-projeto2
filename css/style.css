@@ -21,6 +21,7 @@
 @import "../css/seguros/perguntas.css";
 
 /* bicicletas */
+@import "../css/bicicletas/bicicletas-lista.css";
 @import "../css/bicicletas/bicicletas.css";
 
 /* termos */
