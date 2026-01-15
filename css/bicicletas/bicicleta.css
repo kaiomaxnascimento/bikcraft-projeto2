@@ -10,13 +10,19 @@
 .bicicleta-img span {
   display: flex;
   gap: 20px;
-  max-width: 100%;
-  height: 240px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  overflow-x: auto;
+  padding-top: 1.25rem;
+}
+
+.bicicleta-img a {
+  overflow: hidden;
+}
+
+.bicicleta-img span img {
+  transition: 0.1s;
+}
+
+.bicicleta-img span img:hover {
+  transform: scale(1.03);
 }
 
 .bicicleta-conteudo > p {
@@ -102,9 +108,9 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
- 
-  .bicicleta-img span {
-    display: none;
+
+  .bicicleta-comprar a {
+    grid-column: 1;
   }
 }
 

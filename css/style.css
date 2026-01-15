@@ -20,9 +20,10 @@
 @import "../css/seguros/vantagens.css";
 @import "../css/seguros/perguntas.css";
 
-/* bicicletas */
+/* bicicletas*/
 @import "../css/bicicletas/bicicletas-lista.css";
-@import "../css/bicicletas/bicicletas.css";
+@import "../css/bicicletas/bicicleta.css";
+@import "../css/bicicletas/bicicleta-seguro.css";
 
 /* termos */
 @import "../css/termos/termos.css"
