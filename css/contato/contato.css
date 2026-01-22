@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(var(--cor-11) 600px,  var(--cor-1) 0);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0);
 }
 
 .contato {
@@ -15,12 +15,16 @@
 
 .contato-dados {
   border-radius: 4px 0 0 4px;
-  background-color: var(--cor-12);
+  background: var(--cor-12)
+    url("../../bikcraft-arquivos/img/dec/bottom-left.svg") no-repeat bottom 20px
+    left 20px;
 }
 
 .contato-formulario {
   border-radius: 0 4px 4px 0;
-  background-color: var(--cor-0);
+  background: var(--cor-0)
+    url("../../bikcraft-arquivos/img/dec/bottom-right.svg") no-repeat bottom
+    20px right 20px;
 }
 
 .contato-dados h2 {
@@ -80,7 +84,8 @@
     padding: 1.25rem;
   }
   .contato-dados {
-    border-radius: 5px 5px 0 0;
+    border-radius: 4px 4px 0 0;
+    background: var(--cor-12);
   }
 
   .contato-dados h2,
@@ -89,7 +94,8 @@
   }
 
   .contato-formulario {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 4px 4px;
+    background: var(--cor-0);
   }
 
   .contato-redes a:nth-child(3) {

@@ -19,6 +19,8 @@
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 12.5rem;
+  background: url("../../bikcraft-arquivos/img/dec/bottom-right.svg") no-repeat
+    bottom 180px right 10px;
 }
 
 .introducao-conteudo h1 {
@@ -47,12 +49,13 @@
     padding-top: 2.5rem;
   }
 
-  .introducao-conteudo h1 {
-    margin-bottom: 1rem;
-  }
-
   .introducao-conteudo {
     padding-bottom: 0px;
+    background: none;
+  }
+
+  .introducao-conteudo h1 {
+    margin-bottom: 1rem;
   }
 
   .introducao {

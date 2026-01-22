@@ -80,6 +80,10 @@
 }
 
 /* titulo interno */
+.titulo {
+  background: url('../../bikcraft-arquivos/img/dec/top-right.svg')no-repeat top right 20px;
+}
+
 .titulo-bg {
   background-color: var(--cor-11);
   padding-bottom: 3.75rem;

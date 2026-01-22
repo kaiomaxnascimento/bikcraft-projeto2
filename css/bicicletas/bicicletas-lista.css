@@ -31,6 +31,8 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
+  background: url("../../bikcraft-arquivos/img/dec/top-right.svg") no-repeat top
+    0 right 20px;
 }
 
 .bicicletas-conteudo p,
@@ -85,6 +87,11 @@
     padding-bottom: 2.5rem;
     padding-top: 2.5rem;
   }
+
+  .bicicletas-conteudo {
+
+  background: none;
+}
 }
 
 @media (max-width: 500px) {
