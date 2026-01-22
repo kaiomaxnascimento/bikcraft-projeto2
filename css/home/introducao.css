@@ -62,6 +62,9 @@
     gap: 2rem;
     grid-template-columns: 1fr;
   }
+  .introducao picture img {
+    height: 300px;
+  }
 }
 
 @media (max-width: 600px) {
