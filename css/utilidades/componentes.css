@@ -84,6 +84,13 @@
   background: url('../../bikcraft-arquivos/img/dec/top-right.svg')no-repeat top right 20px;
 }
 
+/* decoração header */
+@media (max-width: 500px) {
+  .titulo {
+    background-image: none;
+  }
+}
+
 .titulo-bg {
   background-color: var(--cor-11);
   padding-bottom: 3.75rem;
